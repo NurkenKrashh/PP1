@@ -1,0 +1,1 @@
+print("Alga Shymkent")
