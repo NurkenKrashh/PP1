@@ -65,7 +65,7 @@ def main():
             if event.type == pygame.MOUSEBUTTONDOWN:
                 drawing = True
                 start_pos = event.pos
-                points = []  # 🔥 жаңа stroke басталады
+                points = []  
 
                 if event.button == 1:
                     radius = min(50, radius + 1)
